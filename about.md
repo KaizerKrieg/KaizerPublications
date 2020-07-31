@@ -17,7 +17,7 @@ That’s what I do. I write amazing posts that will engage your customers, they 
 <p>As a business owner, this frees you up to do what you love best; working on your business. So that you build it up to what you know it should be; an enterprise that satisfies customers and crushes the competition.</p>
 
 <div><p>For you I will write:
-<li>Creative and engaging articles designed to hook readers faster than.</li> 
+<li>Creative and engaging articles designed to hook readers.</li> 
 <li>Comprehensive white papers that will convince and persuade investors.</li>
 <li>Detailed and easy to read technical documentation for painless documentation.</li>
 <li>Amazing blogposts that’ll get you subscribers on the fly.</li>

@@ -3,6 +3,7 @@ layout: post
 title:  "How to Develop a Content Marketing Strategy "
 date:   2020-07-21 11:26:33 +0300
 categories: Content Marketing
+description: A definition followed by strategical guidance.
 ---
 
 A content marketing strategy is your go-to guide for your content marketing goals. 

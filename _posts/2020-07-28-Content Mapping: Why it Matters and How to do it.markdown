@@ -3,6 +3,7 @@ layout: post
 title:  "Content Mapping: Why it Matters and How to do it"
 date:   2020-07-28 11:26:33 +0300
 categories: Content Marketing
+description: A description of content mapping and associated effective strategies. 
 ---
  
 In order to understand content mapping, we need to understand the marketing funnel.

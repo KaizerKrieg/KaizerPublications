@@ -3,6 +3,7 @@ layout: post
 title:  "What is content marketing and why you should invest in it "
 date:   2020-07-14 11:26:33 +0300
 categories: Content Marketing
+description: A definition of content marketing and the reasons why you should invest in it.
 ---
 Content marketing is using content in order to market your business. 
 

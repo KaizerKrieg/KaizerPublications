@@ -1,0 +1,12 @@
+- name: Web Dev Cerification
+  image: /assets/images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg
+  link: https://www.freecodecamp.org/kaizerkrieg
+  description: Follow along as I complete FreeCodeCamp's amazing web dev course.
+- name: Hacker Training!!!
+  link: https://overthewire.org/wargames/
+  image: /assets/images/markus-spiske-iar-afB0QQw-unsplash.jpg
+  description: overthewire.org has ctf training for those interested in learning security concepts.
+- name: Mad Math
+  link: https://projecteuler.net/archives
+  image: /assets/images/crissy-jarvis-cHhbULJbPwM-unsplash.jpg
+  description: Project Euler's math-centered programming challenges are not for the faint of heart.

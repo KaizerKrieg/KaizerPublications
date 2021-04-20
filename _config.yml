@@ -1,92 +1,97 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# WhatATheme
+markdown: kramdown
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-lang: en-US
+# URL of the Site
+url: 'http://127.0.0.1:4000/'
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
 title: Kaizer Publications
+# Description of the Site
+description: Your Content Marketing Solution
+# URL of Image of the Site
+site-image: /KaizerPublications/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Kaizer Publications, Content Marketing
+# URL for the Image of custom Favicon
+favicon-url: /assets/images/favicon_io(1)/favicon.ico
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: /assets/images/joshua-newton-7qjqQjt7zXQ-unsplash.jpg
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
 email: kaizerpublications@gmail.com
-description: Your content marketing solution
-baseurl: # the optional subpath of your site, e.g. "/blog"
-url: www.kaizerpublications.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-author: 
-  name: Dennis Kuria
-  twitter:
-  picture:
-twitter_username:
-github_username:
-logo: # path of site logo, e.g. "/assets/images/logo.png"
-social:
-   name: Dennis Kuria
-   links: 
-    -https://linkedin.com/in/dennis-kuria-2963001ab/
-search: # true, false (default)
-search_full_content: false # true, false (default)
-search_provider: # lunr (default), algolia
-algolia:
-  application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR_INDEX_NAME
-  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-  powered_by: # true (default), false
+facebook_username: dennis.kuria.5437
+twitter_username: DennisK95885840
+instagram_username: 
+linkedin_username: dennis-kuria-2963001ab
+github_username:  KaizerKrieg
+youtube_channel_id: 
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 
+
+# Google Analytics
+google-analytics: UA-174152438-1
+
+# Disqus
+disqus-shortname: Dennis Kuria
+
+# Name of the Author
+author-name: Dennis Kuria
+# URL for the Image of the Author
+author-image: /assets/images/Profpic-cropped.png
+# 60 Words About the Author
+author-about: Ad astra per aspera. 
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://www.linkedin.com/in/dennis-kuria-2963001ab
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Build settings
-markdown: kramdown
-theme: jekyll-theme-basically-basic
-plugins: # previsously gems
+plugins:
+  - jekyll-admin
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
-feed:
-  path: atom.xml
 
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
+# Permalink
+permalink: "blog/:title"
 
-# Exclude from processing.
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
 exclude:
-  - .asset-cache
-  - .bundle
-  - .codeclimate.yml
-  - .editorconfig
-  - .gitattributes
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .scss-lint.yml
-  - CHANGELOG
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - LICENSE
-  - node_modules
-  - Rakefile
-  - README
+  - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - /docs # ignore Basically Basic sample site
-  - /example # ignore Basically Basic dev site
-
-# Google Analytics
-  google_analytics: UA-174152438-1
-
-# Front Matter Defaults
-defaults:
-  # _posts
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      read_time: true

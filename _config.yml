@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: 'https://github.com/KaizerKrieg/KaizerPublications'
+url: 'https://github.com/KaizerKrieg/KaizerPublications/'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: 'https://www.kaizerpublications.com/'
 
 # Title of the Site
 title: Kaizer Publications

@@ -56,7 +56,6 @@ sass:
 
 # Build settings
 plugins:
-  - jekyll-admin
   - jekyll-feed
 
 # Permalink
@@ -95,3 +94,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+
